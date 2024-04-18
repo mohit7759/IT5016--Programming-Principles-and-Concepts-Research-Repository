@@ -20,7 +20,7 @@ class Dog(Animal):
 
 dog = Dog()
 dog.sound()  # Output: Dog barks
-
+```
 ## Function:
 
 ### Overview:
@@ -35,4 +35,26 @@ def greet(name):
     print("Hello, " + name)
 
 greet("Alice")  # Output: Hello, Alice
+```
+## Turtle Loop:
 
+### Overview:
+In turtle graphics, a loop can be used to repeat a series of drawing commands. This allows for the creation of complex shapes and patterns by iteratively drawing smaller components.
+
+### Commentary:
+Using loops in turtle graphics can simplify the drawing process, especially when creating repetitive patterns or shapes. Loops can be combined with other turtle commands to create intricate designs.
+
+### Example:
+```python
+import turtle
+
+# Create turtle object
+t = turtle.Turtle()
+
+# Draw a square using a loop
+for _ in range(4):
+    t.forward(100)
+    t.left(90)
+
+# Keep the window open
+turtle.mainloop() ```
