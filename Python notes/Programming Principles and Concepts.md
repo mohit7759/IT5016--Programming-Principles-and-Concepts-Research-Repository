@@ -20,3 +20,19 @@ class Dog(Animal):
 
 dog = Dog()
 dog.sound()  # Output: Dog barks
+
+## Function:
+
+### Overview:
+Functions are blocks of organized, reusable code designed to perform a specific task. They help in modularizing code, promoting code reuse, and enhancing readability.
+
+### Commentary:
+Functions in Python follow a "def" keyword followed by a function name and parameters enclosed within parentheses. They encapsulate logic, promote abstraction, and improve code readability.
+
+### Example:
+```python
+def greet(name):
+    print("Hello, " + name)
+
+greet("Alice")  # Output: Hello, Alice
+
