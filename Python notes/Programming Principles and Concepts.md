@@ -1,6 +1,6 @@
 # Programming Principles and Concepts in Python
 
-## 1. Inheritance:
+## Inheritance:
 
 ### Overview:
 Inheritance is a core principle of object-oriented programming (OOP) where a class (subclass) can inherit attributes and methods from another class (superclass). This promotes code reusability and establishes a hierarchy among classes.
