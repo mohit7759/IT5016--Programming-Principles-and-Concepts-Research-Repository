@@ -58,3 +58,24 @@ for _ in range(4):
 
 # Keep the window open
 turtle.mainloop() ```
+
+## Turtle Circle:
+
+### Overview:
+The turtle module in Python provides turtle graphics primitives, allowing users to create pictures and shapes by providing them with a virtual canvas. A circle can be drawn using turtle graphics by controlling the turtle's movement and direction.
+
+### Commentary:
+Drawing a circle using turtle graphics involves moving the turtle along an arc with a specific radius and angle. By repeating this movement in small steps, a complete circle can be drawn.
+
+### Example:
+```python
+import turtle
+
+# Create turtle object
+t = turtle.Turtle()
+
+# Draw a circle
+t.circle(100)
+
+# Keep the window open
+turtle.mainloop()
